@@ -1,0 +1,5 @@
+class RenamePersonToEmployee < ActiveRecord::Migration
+  def change
+    rename_column :statuses, :person, :employee
+  end
+end
